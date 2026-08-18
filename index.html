@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Interactiva de Motos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Galería Interactiva de Motos</h1>
+        <p>Pasa el mouse o usa el teclado (Tab) para explorar las categorías de motocicletas</p>
+    </header>
+
+    <main>
+        <!-- IMAGEN GRANDE PRINCIPAL -->
+        <section class="main-image-container">
+            <div id="main-image-wrapper">
+                <img id="main-image" 
+                     src="imagenes/deportiva1.jpg" 
+                     alt="Selecciona una motocicleta de las miniaturas" 
+                     width="800" 
+                     height="500">
+                <p id="image-description" class="image-text">Selecciona una motocicleta de las miniaturas</p>
+            </div>
+        </section>
+
+        <!-- GALERÍA DE MINIATURAS -->
+        <section class="gallery">
+            <h2>Clases de Motocicletas</h2>
+            <div class="thumbnails-grid" id="thumbnails">
+                <!-- DEPORTIVAS -->
+                <figure id="thumb1" class="thumbnail">
+                    <img src="imagenes/deportiva1.jpg" alt="Motocicleta deportiva 1 en pista" width="200" height="150">
+                    <figcaption>Deportiva 1</figcaption>
+                </figure>
+                <figure id="thumb2" class="thumbnail">
+                    <img src="imagenes/deportiva2.jpeg" alt="Motocicleta deportiva 2 estilo urbano" width="200" height="150">
+                    <figcaption>Deportiva 2</figcaption>
+                </figure>
+                <figure id="thumb3" class="thumbnail">
+                    <img src="imagenes/deportiva3.jpeg" alt="Motocicleta deportiva 3 de alto rendimiento" width="200" height="150">
+                    <figcaption>Deportiva 3</figcaption>
+                </figure>
+                <figure id="thumb4" class="thumbnail">
+                    <img src="imagenes/deportiva4.jpg" alt="Motocicleta deportiva 4 en carretera" width="200" height="150">
+                    <figcaption>Deportiva 4</figcaption>
+                </figure>
+                <figure id="thumb5" class="thumbnail">
+                    <img src="imagenes/deportiva5.jpg" alt="Grupo de motocicletas deportivas estacionadas" width="200" height="150">
+                    <figcaption>Deportiva 5</figcaption>
+                </figure>
+
+                <!-- ENDURO -->
+                <figure id="thumb6" class="thumbnail">
+                    <img src="imagenes/enduro1.jpg" alt="Motocicleta de enduro 1 en terreno abierto" width="200" height="150">
+                    <figcaption>Enduro 1</figcaption>
+                </figure>
+                <figure id="thumb7" class="thumbnail">
+                    <img src="imagenes/enduro2.jpeg" alt="Motocicleta de enduro 2 color naranja" width="200" height="150">
+                    <figcaption>Enduro 2</figcaption>
+                </figure>
+                <figure id="thumb8" class="thumbnail">
+                    <img src="imagenes/enduro3.jpeg" alt="Motocicleta de enduro 3 de motocross" width="200" height="150">
+                    <figcaption>Enduro 3</figcaption>
+                </figure>
+                <figure id="thumb9" class="thumbnail">
+                    <img src="imagenes/enduro4.jpeg" alt="Motocicleta de enduro 4 urbana y todoterreno" width="200" height="150">
+                    <figcaption>Enduro 4</figcaption>
+                </figure>
+                <figure id="thumb10" class="thumbnail">
+                    <img src="imagenes/enduro5.jpeg" alt="Motocicleta de enduro 5 especializada" width="200" height="150">
+                    <figcaption>Enduro 5</figcaption>
+                </figure>
+
+                <!-- TURISMO -->
+                <figure id="thumb11" class="thumbnail">
+                    <img src="imagenes/turismo1.jpg" alt="Motocicleta de turismo 1 equipada para viajes" width="200" height="150">
+                    <figcaption>Turismo 1</figcaption>
+                </figure>
+                <figure id="thumb12" class="thumbnail">
+                    <img src="imagenes/turismo2.jpeg" alt="Motocicleta de turismo 2 gran turismo" width="200" height="150">
+                    <figcaption>Turismo 2</figcaption>
+                </figure>
+                <figure id="thumb13" class="thumbnail">
+                    <img src="imagenes/turismo3.jpeg" alt="Motocicleta de turismo 3 estilo adventure" width="200" height="150">
+                    <figcaption>Turismo 3</figcaption>
+                </figure>
+                <figure id="thumb14" class="thumbnail">
+                    <img src="imagenes/turismo4.jpeg" alt="Motocicleta de turismo 4 en ruta larga" width="200" height="150">
+                    <figcaption>Turismo 4</figcaption>
+                </figure>
+                <figure id="thumb15" class="thumbnail">
+                    <img src="imagenes/turismo5.jpeg" alt="Motocicleta de turismo 5 moderna" width="200" height="150">
+                    <figcaption>Turismo 5</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Galería de Motos - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
